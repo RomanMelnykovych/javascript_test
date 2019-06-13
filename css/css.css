@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+input {
+    outline:none;
+}
+body{
+     margin: 0;
+ }
+.html__wrapper{
+    background: url("../img/markus-spiske-1381441-unsplash.jpg")  no-repeat center / cover;
+    height: 100vh;
+    box-shadow: 100vw 0 0 rgba(0,0,0, .75) inset;
+    margin: 0 auto;
+    padding-top: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    margin: 0 auto;
+}
+.form__input{
+    border: 1px solid #49b801;
+    height: 30px;
+    width: 150px;
+    font-size: 17px;
+    color: rgba(255,255,255, .8);
+    background-color: transparent;
+    border-radius: 30px;
+}
+ .form__input:focus{
+    border: 1px solid blue;
+ }
+input{
+    background: transparent;
+    color: lightgray;
+    margin: 5px;
+    padding: 0 10px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    border: 2px solid darkolivegreen;
+    border-radius: 5%;
+}
+label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn{
+    margin: 10px auto;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #36cb6c;
+    border-radius: 30px;
+    transition: .2s linear;
+}
+.btn:hover{
+    background-color: #36cb6c;
+}
+#number{
+    margin: 0 auto;
+}
+
+#userContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+ #userContainer div{
+     font-family: 'Poppins', sans-serif;
+     font-size: 15px;
+     padding: 10px;
+     border: 2px solid darkolivegreen;
+     border-radius: 10px;
+     margin: 10px;
+ }
+h3{
+    text-align: center;
+}
+p{
+    margin: 5px auto;
+}

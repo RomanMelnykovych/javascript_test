@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css">
+    <title>JavaScript</title>
+</head>
+<body>
+<div class="html__wrapper">
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Введіть 5 авто</legend>
+            <label for="brand">
+                Марка :
+                <input type="text" class="form__input" id="brand" autocomplete="off" >
+            </label><br>
+            <label for="model">
+                Модель :
+                <input type="text" class="form__input" id="model" autocomplete="off" >
+            </label><br>
+            <label for="engine">
+                Об'єм двигуна :
+                <input type="number" class="form__input" id="engine" min="0" max="10" step="0.1">
+            </label>
+            <label>
+                <input type="submit" class="btn" id="submit" value="Відправити" onclick="getValue() ">
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Введіть мінімальний об'єм двигуна</legend>
+            <label for="number">
+                <input type="number" class="form__input" id="number" min="0" max="10" step="0.1">
+            </label>
+            <label>
+                <input type="submit" class="btn" id="subNumber" value="Відправити" onclick="getNamber()">
+            </label>
+        </fieldset>
+    </form>
+    <div id="title__name">
+        <h3 id="title"></h3>
+    </div>
+    <div id="userContainer"></div>
+</div>
+<script rel="script" type="application/javascript" src="js/mainJS.js"></script>
+</body>
+</html>
