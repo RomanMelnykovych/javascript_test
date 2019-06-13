@@ -27,6 +27,7 @@ var five__cars = {
 var carsArrey = [one__cars, two__cars,  three__cars, four__cars, five__cars];
 var newCarsArrey = [];
 var i = 0;
+var count = 5;
 
 function getValue() {
     var brand = document.getElementById("brand").value;
@@ -41,6 +42,8 @@ function getValue() {
                 carsArrey[i].brand = brand;
                 carsArrey[i].model = model;
                 carsArrey[i].engine = engine;
+                alert("Авто доданно в масив!! Лишилось " + count + " авто!!");
+                --count;
                 break;
             }
         }
